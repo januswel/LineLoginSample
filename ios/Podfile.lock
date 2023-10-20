@@ -74,6 +74,9 @@ PODS:
     - hermes-engine/Pre-built (= 0.72.4)
   - hermes-engine/Pre-built (0.72.4)
   - libevent (2.1.12)
+  - LineSDKSwift (5.10.0):
+    - LineSDKSwift/Core (= 5.10.0)
+  - LineSDKSwift/Core (5.10.0)
   - OpenSSL-Universal (1.1.1100)
   - RCT-Folly (2021.07.22.00):
     - boost
@@ -518,6 +521,7 @@ DEPENDENCIES:
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - hermes-engine (from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
   - libevent (~> 2.1.12)
+  - LineSDKSwift (~> 5.0)
   - OpenSSL-Universal (= 1.1.1100)
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
@@ -568,6 +572,7 @@ SPEC REPOS:
     - FlipperKit
     - fmt
     - libevent
+    - LineSDKSwift
     - OpenSSL-Universal
     - SocketRocket
     - YogaKit
@@ -671,6 +676,7 @@ SPEC CHECKSUMS:
   glog: 04b94705f318337d7ead9e6d17c019bd9b1f6b1b
   hermes-engine: 81191603c4eaa01f5e4ae5737a9efcf64756c7b2
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
+  LineSDKSwift: af3be3b3eb8b408ff0f0de22c85a45df453cb0b9
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
   RCT-Folly: 424b8c9a7a0b9ab2886ffe9c3b041ef628fd4fb1
   RCTRequired: c0569ecc035894e4a68baecb30fe6a7ea6e399f9
@@ -708,6 +714,6 @@ SPEC CHECKSUMS:
   Yoga: 3efc43e0d48686ce2e8c60f99d4e6bd349aff981
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: e57ee9394d5d43a0427b62d92cf3a63e655cad86
+PODFILE CHECKSUM: 6b252f4b48b431b69f205b01e3648a5cfe867dba
 
 COCOAPODS: 1.12.1
