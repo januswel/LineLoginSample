@@ -60,5 +60,5 @@ target 'LineLoginSample' do
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
   end
 
-  pod 'LineSDKSwift', '~> 5.0'
+  pod 'LineSDKSwift/ObjC', '~> 5.0'
 end

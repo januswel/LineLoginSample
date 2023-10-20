@@ -12,4 +12,6 @@ export type Login = (nonce: string) => Promise<Profile>;
 export type Logout = () => Promise<void>;
 
 export const login: Login = LineLogin.login;
-export const logout: Logout = LineLogin.logout;
+export const logout: Logout = async function () {
+  await LineLogin.logout('dummy');
+};
