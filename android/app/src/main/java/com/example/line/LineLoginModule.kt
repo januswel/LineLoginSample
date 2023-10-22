@@ -98,7 +98,7 @@ class LineLoginModule(reactContext: ReactApplicationContext, lineChannelId: Stri
   }
 
   @ReactMethod
-  fun logout(promise: Promise) {
+  fun logout(dummy: String, promise: Promise) {
     lineApiClient?.let { client ->
       val response = client.logout()
 
