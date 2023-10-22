@@ -89,16 +89,24 @@
 		13B07FAE1A68108700A75B9A /* LineLoginSample */ = {
 			isa = PBXGroup;
 			children = (
+				161C35E82AE4EDEE00CBC417 /* LineLogin */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				163390772AE2C0C40042A27F /* LineLogin.h */,
-				163390782AE2C1300042A27F /* LineLogin.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = LineLoginSample;
+			sourceTree = "<group>";
+		};
+		161C35E82AE4EDEE00CBC417 /* LineLogin */ = {
+			isa = PBXGroup;
+			children = (
+				163390772AE2C0C40042A27F /* LineLogin.h */,
+				163390782AE2C1300042A27F /* LineLogin.m */,
+			);
+			path = LineLogin;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
